@@ -2,7 +2,7 @@
  * File Created: Saturday, 13th October 2018
  * Author: GASTALDI Rémi
  * -----
- * Last Modified: Sunday, 23rd December 2018
+ * Last Modified: Wednesday, 2nd January 2019
  * Modified By: GASTALDI Rémi
  * -----
  * Copyright - 2018 GASTALDI Rémi
@@ -62,6 +62,7 @@ public class Grid {
       line.setStrokeWidth(_width);
       _lines.add(line);
       _pane.getChildren().add(line);
+      line.toBack();
     }
     
     for (double i = 1; i < yNeeded; i += _ySpacing) {
@@ -72,6 +73,7 @@ public class Grid {
       line.setStrokeWidth(_width);
       _lines.add(line);
       _pane.getChildren().add(line);
+      line.toBack();
     }
   }
 

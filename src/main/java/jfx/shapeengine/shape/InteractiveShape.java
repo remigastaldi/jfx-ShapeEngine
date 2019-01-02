@@ -2,7 +2,7 @@
  * File Created: Sunday, 14th October 2018
  * Author: GASTALDI Rémi
  * -----
- * Last Modified: Tuesday, 1st January 2019
+ * Last Modified: Wednesday, 2nd January 2019
  * Modified By: GASTALDI Rémi
  * -----
  * Copyright - 2018 GASTALDI Rémi
@@ -346,7 +346,6 @@ public abstract class InteractiveShape<T extends Shape> {
       }
       enableGlow();
       Engine().selected(this);
-      System.out.println("SHAPE " + this + " SELECTED");
     }
   }
 
@@ -356,7 +355,6 @@ public abstract class InteractiveShape<T extends Shape> {
     }
 
     disableGlow();
-    System.out.println(this + " DESELECTED");
   }
 
   public Shape  getShape() {

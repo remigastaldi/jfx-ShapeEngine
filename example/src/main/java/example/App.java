@@ -10,6 +10,7 @@ import javafx.stage.Stage;
 import jfx.shapeengine.Engine;
 
 public class App extends Application {
+  boolean gridState = true;
 
   @Override
   public void start(Stage stage) {
@@ -33,6 +34,13 @@ public class App extends Application {
           break;
         case P:
           engine.createInteractivePolygon();
+          break;
+        case M:
+          engine.toggleMagnetism();
+          break;
+        case G:
+          gridState = !gridState;
+          engine.activateGrid(gridState);
           break;
         default :
           break;
