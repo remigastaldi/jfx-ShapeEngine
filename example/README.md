@@ -26,7 +26,7 @@ ShortCut | Action
 ------------ | -------------
 R | Draw rectangle
 P | Draw polygon
-M | Activate / Disable grid
+M | Activate / Disable magnetism
 G | Activate / Disable grid
 
 ## Run project
