@@ -2,7 +2,7 @@
  * File Created: Sunday, 14th October 2018
  * Author: GASTALDI Rémi
  * -----
- * Last Modified: Wednesday, 2nd January 2019
+ * Last Modified: Wednesday, 9th January 2019
  * Modified By: GASTALDI Rémi
  * -----
  * Copyright - 2018 GASTALDI Rémi
@@ -84,11 +84,6 @@ public abstract class InteractiveShape<T extends Shape> {
   public abstract double[] getPointsInParent();
   public abstract double[] getNoRotatedParentPos();
   public abstract double[] noRotatedParentPointsToRotated(double pos[]);
-
-
-  // REMOVE THIS ASDYASUDYASIUDYASIDYTASIUDTIUYWQTEIUYWQTEIYTQWIEUTQWIEYTQWIEUYT
-  public void updateRowsFromData(boolean toParent){};
-  public void updateFromData(boolean toParent){};
 
   protected void addOutboundShape(Shape shape) {
     _outBoundShapes.add(shape);
@@ -242,9 +237,6 @@ public abstract class InteractiveShape<T extends Shape> {
 
         rectBoundsRotation.setAngle(getRotation().getAngle());
 
-        // System.out.println(_boundsRect.getBoundsInParent().getMinX());
-        // System.out.println(Engine().getBoard().getWidth() - (_boundsRect.getBoundsInParent().getMinX() + _boundsRect.getWidth()));
-        // System.out.println(Engine().getBoard(). getHeight() - (_boundsRect.getBoundsInParent().getMinY() + _boundsRect.getHeight()));
         double boardWidth = Engine().getBoard().getWidth();
         double boardHeight = Engine().getBoard().getHeight();
         Bounds rectBounds = _boundsRect.getBoundsInParent();
@@ -297,9 +289,6 @@ public abstract class InteractiveShape<T extends Shape> {
     EventHandlers().put(MouseEvent.MOUSE_DRAGGED, mouseDragged);
     _shape.addEventHandler(MouseEvent.MOUSE_DRAGGED, mouseDragged);
 
-    // _shape.setOnMouseReleased(mouseEvent -> {
-    //   onShapeReleased();
-    // });
 
     _group.setOnMousePressed(mouseEvent -> {
       Point2D p = Pane().sceneToLocal(mouseEvent.getSceneX(), mouseEvent.getSceneY());
