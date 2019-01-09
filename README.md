@@ -1,6 +1,6 @@
 # jfx-ShapeEngine
 
-jfx-ShapeEngine is a shape engine for java ui that can be used for software wich need to have interactives shapes like circle, rectangle, polygon etc.  
+jfx-ShapeEngine is a shape engine for javaFX that can be used for software wich need to draw interactives shapes like circle, rectangle, polygon etc.  
 
 The engine bring many features like a grid system, a magnetism system among shapes and grid, an interactive way to draw shape and much more.  
   
