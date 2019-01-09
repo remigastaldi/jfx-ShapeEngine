@@ -10,6 +10,8 @@ You can have a look to [InnoEvent](https://github.com/remigastaldi/InnoEvent) to
 ## Features
 
 - Board size customisation {Background, Width, Height}
+- Scrollbar
+- Automatic board center
 - Custom cursor system wich can be customized according to the current shape
 - Grid system
 - Magnetism system
@@ -32,13 +34,14 @@ You can have a look to [InnoEvent](https://github.com/remigastaldi/InnoEvent) to
 - [ ] Circle
 - [ ] Line
 
-
 ## Compilation
+
 Ensure to have java JRE, JRE and JFX in your path.
 
 Build jar:
+
 ```bash
 gradle build
 ```
 
-An example of jar use is available under example folder.
+An example of jar use is available under example folder.  
