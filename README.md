@@ -4,7 +4,7 @@ jfx-ShapeEngine is a shape engine for javaFX that can be used for software wich 
 
 The engine bring many features like a grid system, a magnetism system among shapes and grid, an interactive way to draw shape and much more.  
   
-This project was developed for [InnoEvent](https://github.com/remigastaldi/InnoEvent), a plan creation software, there is only rectangle and polygon shapes as we only need them.  Engine`s shapes can be easily extends features of shape to have different behavior and add fonctionnities to them.  
+This project was developed for [InnoEvent](https://github.com/remigastaldi/InnoEvent), a plan creation software, there is only rectangle and polygon shapes as we only need them.  Engine`s shapes can be easily extends features of shape to have different behavior and add functionalities to them.  
 You can have a look to [InnoEvent](https://github.com/remigastaldi/InnoEvent) to see the possibilites :)
   
 ## Features
